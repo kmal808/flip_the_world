@@ -1,9 +1,8 @@
 # Sub-GHz files from [UberGuidoZ](https://github.com/UberGuidoZ/Flipper/tree/main/Sub-GHz). Some tested, some not.
 
-Special thanks to [FalsePhilosopher](https://github.com/FalsePhilosopher) for organization help and everyone else that shares files!<br>
-Worth a mention: If you have a HackRF, you can find a ton of files and info over at RocketGod's [HackRF Treasure Chest](https://github.com/RocketGod-git/HackRF-Treasure-Chest).
+If you have a HackRF, you can find a ton of files and info over at RocketGod's [HackRF Treasure Chest](https://github.com/RocketGod-git/HackRF-Treasure-Chest).
 
-## How are the raw SUB files are formatted? (Adapted from a chat with [ImprovingRigmarole](https://github.com/improving-rigmarole)!)
+## How are the raw SUB files are formatted?
 
 This is a very quick and dirty explanation of the Flipper "raw" SUB format. Enough to figure out more at least.<br>
 Each numerical value is the duration of a pulse in microseconds. Positive is `send` and negative is `pause`.<br>
