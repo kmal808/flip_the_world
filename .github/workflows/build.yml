@@ -4,16 +4,17 @@ name: 'FAP: Build for multiple SDK sources'
 #* See https://github.com/marketplace/actions/build-flipper-application-package-fap for more information
 
 on:
+  workflow_dispatch: {}
   #$ triggers a new build on every push to the branch listed below
-  push:
-    branches:
+  # push:
+    # branches:
       #! change the "main" below to your default branch
-      - main
+     # - main
   #$ triggers on each pull request to allow for preview builds
-  pull_request:
-  schedule:
+  # pull_request:
+  # schedule:
     #$ cron job to build every day
-    - cron: '1 1 * * *'
+    # - cron: '1 1 * * *'
 
 jobs:
   ufbt-build:
